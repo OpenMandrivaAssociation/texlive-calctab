@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/calctab
+# catalog-date 2009-07-14 21:55:02 +0200
+# catalog-license lppl
+# catalog-version v0.6.1
 Name:		texlive-calctab
 Version:	v0.6.1
 Release:	1
@@ -42,6 +48,7 @@ computes sum and percentage with floating point numeric methods
 %doc %{_texmfdistdir}/doc/latex/calctab/README
 %doc %{_texmfdistdir}/doc/latex/calctab/calctab_manual.pdf
 %doc %{_texmfdistdir}/doc/latex/calctab/calctab_manual.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ computes sum and percentage with floating point numeric methods
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
