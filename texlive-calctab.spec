@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version v0.6.1
 Name:		texlive-calctab
-Version:	v0.6.1
-Release:	10
+Version:	0.6.1
+Release:	1
 Summary:	Language for numeric tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calctab
