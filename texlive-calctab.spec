@@ -5,8 +5,8 @@ Summary:	Language for numeric tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calctab
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calctab.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calctab.doc.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calctab.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/calctab.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
