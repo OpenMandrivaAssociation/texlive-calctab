@@ -1,6 +1,6 @@
 Name:		texlive-calctab
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Language for numeric tables
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/calctab
